@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Rent-a-Car</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="cont">
+                <h1>Find the Perfect Car for Your Trip</h1>
+                <p>Reliable, Affordable, Convenient</p>
+                <a href="#services" class="btn">Browse Cars</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding">
+        <div class="cont2">
+            <div class="container">
+                <h2 class="hs">Our <span class="s1">Services</span></h2>
+                <div class="service-cards">
+                    <div class="service-card">
+                        <h3>Wide Range of Cars</h3>
+                        <p>Choose from a variety of cars to suit your needs.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>24/7 Support</h3>
+                        <p>We are here to help you at any time, day or night.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Easy Booking</h3>
+                        <p>Book your car online in a few simple steps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="cont2">
+            <div class="container">
+                <h2 class="hs">About <span class="s1"> Us </span></h2>
+                <p class="ps">We are dedicated to providing you with the best car rental experience. Our fleet of vehicles is
+                    well-maintained and regularly serviced to ensure your safety and comfort. With years of experience
+                    in
+                    the industry, we understand what our customers need and strive to exceed their expectations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rent-a-Car. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
